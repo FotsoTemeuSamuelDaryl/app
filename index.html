@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <h2 class="task-input" style="font-family: 'Poppins', sans-serif; color: #2D5CFE;" ><span style="color: #4AB1FF;">TO-</span><span style="color: #3C87FF;">DO</span> LIST</h2>
+      <div class="task-input">
+        <img src="bars-icon.svg" alt="icon">
+        <input type="text" placeholder="Ajouter et appuyer Entrer">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">Tous</span>
+          <span id="pending">En Cours</span>
+          <span id="completed">Complété</span>
+        </div>
+        <button class="clear-btn">Tout effacer</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
